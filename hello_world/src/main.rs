@@ -1,9 +1,10 @@
-fn main() {    
-    let numb: i32 =  5;
-    let num2: i32 = 10;
-    let sume = num1 + num2;
+fn main() {
 
+    let mut text: String = String::new();
 
+    std::io::stdin()
+        .read_line(&mut text)
+        .expect("Failed to read line.");
 
-    // print!("{}", variable_name);
+    println!("Value given by user is {}", text);
 }
