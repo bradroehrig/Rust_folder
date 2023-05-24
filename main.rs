@@ -2,5 +2,6 @@
 // Print "Hello World!" message
 
 fn main() {
-    println!("Hello, World!");
+    println!("Hello World!");
+    println!("Hello Brad!");
 }
